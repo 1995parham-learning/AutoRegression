@@ -16,4 +16,4 @@ Stationarity means that:
 2. $\sigma$ is constant
 3. There is no seasonality
 
-![examples of time series data that violated the above constraints](images/Statinarity.jpg)
+![examples of time series data that violated the above constraints](img/Statinarity.jpg)
