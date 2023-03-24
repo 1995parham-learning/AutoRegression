@@ -10,7 +10,7 @@ $\epsilon$ is the error term of the equation
 
 A **constraint** to using auto regression is that the time series data needs to be stationary.
 
-## Stationarity (WEAK)
+## Stationarity (weak)
 Stationarity means that:
 1. $\mu$ is constant
 2. $\sigma$ is constant
