@@ -17,3 +17,8 @@ Stationarity means that:
 3. There is no seasonality
 
 ![examples of time series data that violated the above constraints](img/Statinarity.jpg)
+
+### Checking For Stationarity
+1. Visually
+2. Global vs Local Tests
+3. Augmented Dickey Fuller (ADF) 
