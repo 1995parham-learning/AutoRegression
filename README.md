@@ -3,8 +3,5 @@ Autoregression is a **time series model** that uses observations from previous t
 as input to a regression equation to predict the value at the next time step. It is a very 
 simple idea that can result in accurate forecasts on a range of time series problems.
 
-The equation for the area of a circle is:
+$$y_t = c + \phi_1 r^2$$
 
-$$A = \pi r^2$$
-
-where $r$ is the radius of the circle.
