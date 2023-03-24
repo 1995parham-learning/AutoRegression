@@ -5,3 +5,4 @@ simple idea that can result in accurate forecasts on a range of time series prob
 
 $$y_t = c + \phi_1 y_{t-1} + \phi_2 y_{t-2} + ... + \phi_p y_{t-p} + \epsilon $$
 
+\epsilon is the error term of the equation
