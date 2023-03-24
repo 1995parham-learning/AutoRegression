@@ -22,3 +22,5 @@ Stationarity means that:
 1. Visually
 2. Global vs Local Tests
 3. Augmented Dickey Fuller (ADF) 
+
+A very common idea to transform a non-stationary data to a stationary one is differnecing. If $y_t$ is not stationary $y_t - t_{t-1}$ may be stationary.
