@@ -31,3 +31,10 @@ $S_t$ Average price of Salmon this month
 The most intuitive determiner of the price of Salmon this month is the price of Salmon last month and then the month before that and on and on.
 ![ACF](img/ACF.jpg)
 The direct effect may be a big food festival for example which happens every two months and affacts the price of Salmon
+ACF($s_{t-2}$, $s_t$) = CORR($s_{t-2}$, $s_t$) = Pearson correlation 
+| x | y |
+| -------- | -------- |
+| January | March |
+| February | April |
+| March | May |
+
