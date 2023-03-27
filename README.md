@@ -24,3 +24,10 @@ Stationarity means that:
 3. Augmented Dickey Fuller (ADF) 
 
 A very common idea to transform a non-stationary data to a stationary one is differnecing. If $y_t$ is not stationary $y_t - t_{t-1}$ may be stationary.
+
+## Auto Correlation Function (ACF)
+Let's explain this by an example:
+$S_t$ Average price of Salmon this month
+The most intuitive determiner of the price of Salmon this month is the price of Salmon last month and then the month before that and on and on.
+![ACF](img/ACF.jpg)
+The direct effect may be a big food festival for example which happens every two months and affacts the price of Salmon
