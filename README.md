@@ -40,4 +40,5 @@ ACF($s_{t-2}$, $s_t$) = CORR($s_{t-2}$, $s_t$) = Pearson correlation
 ACF contains the effect of both direct route ($S_{t-2}$ -> $S_{t}$) and indirect route ($S_{t-2}$ -> $S_{t-1}$ -> $S_{t}$)
 
 ## Partial Auto Correlation Function (PACF)
-In PACF we only care about the direct effect $S_{t-2}$ -> $S_{t}$. The ACF($s_{t-2}$, $s_t$) might be high only becase of the inderect effect, the direct effect may have little to no correlation and will barely help us with predicting the Salmon price.
+In PACF we only care about the direct effect $S_{t-2}$ -> $S_{t}$. The ACF($s_{t-2}$, $s_t$) might be high only becase of the inderect effect, the direct effect may have little to no correlation and will barely help us with predicting the Salmon price. PACF gives us only the direct effect.
+$$PACF(lag=2): S_t = \phi_21 s_{t-1} + \phi_22 s_{t-2} + \epsilon_t$$
