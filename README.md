@@ -43,3 +43,5 @@ ACF contains the effect of both direct route ($S_{t-2}$ -> $S_{t}$) and indirect
 In PACF we only care about the direct effect $S_{t-2}$ -> $S_{t}$. The ACF($s_{t-2}$, $s_t$) might be high only becase of the inderect effect, the direct effect may have little to no correlation and will barely help us with predicting the Salmon price. PACF gives us only the direct effect.
 $$PACF(k=2): S_t = \phi_{21} s_{t-1} + \phi_{22} s_{t-2} + \epsilon_t$$
 $\phi_{22}$ gives us the direct effect of $s_{t-2}$ on $s_t$
+
+See [this file](PACF.ipynb) for code example
